@@ -1,11 +1,13 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// One short text, written to entry.txt: a child carried on a
-// grandfather's shoulders through a field at dusk, fireflies rising,
-// 275 chars, under the 280 cap.
+// One short text, written to entry.txt: a child small on a
+// grandfather's shoulders while he walks the field path, one step
+// then another, fireflies rising one, then another, then a hundred,
+// and rising still as they were before he was small, 271 chars,
+// under the 280 cap.
 const TEXT =
-  "You are small on your grandfather's shoulders. The field goes by, slow and even. His hands hold your ankles. Fireflies rise out of the grass, one, then a hundred. The whole field is lifting. The sky comes down to meet it, and the night goes on, and you are held above it all.";
+  "You are small on your grandfather's shoulders. He walks the field path, one step, then another. His hands hold your ankles. A firefly rises out of the tall grass, then another, then a hundred. They were rising before your grandfather was small, and they are rising still.";
 
 const len = [...TEXT].length;
 if (len < 1 || len > 280) {
