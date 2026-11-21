@@ -8,10 +8,10 @@ Bounty: https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600
 
 ## Entry
 
-`main.ts` (Node 22, stdlib only) writes one text, 253 characters, to
+`main.ts` (Node 22, stdlib only) writes one text, 279 characters, to
 `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt`).
 
-> Starlight took a thousand years to reach the snow on this mountain. The snow fell before there was a road, before the mountain had a name. It is still there, in the dark, holding the light. It took a thousand years to arrive. It is in no hurry to leave.
+> Starlight took a thousand years to reach the snow on this mountain. The snow fell before there was a road, before the mountain had a name. It is still there, in the dark and the cold, holding the soft light. It took a thousand years to arrive, slowly. It is in no hurry to leave.
 
 ## Why this text
 
